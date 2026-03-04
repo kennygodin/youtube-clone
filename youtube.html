@@ -9,10 +9,67 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/youtube.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
     <title>youtube clone</title>
   </head>
   <body>
+    <div class="header">
+      <div class="header-left">
+        <img
+          class="hamburger-menu-icon"
+          src="/icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+        <img
+          class="youtube-logo-icon"
+          src="/icons/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+      <div class="header-middle">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="/icons/search.svg" alt="search" />
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="/icons/voice-search-icon.svg"
+            alt="voice-search-icon"
+          />
+        </button>
+      </div>
+      <div class="header-right">
+        <button class="upload-button">
+          <img class="upload-icon" src="/icons/upload.svg" alt="upload" />
+        </button>
+
+        <button class="youtube-app-button">
+          <img
+            class="youtube-apps-icon"
+            src="/icons/youtube-apps.svg"
+            alt="youtube-apps"
+          />
+        </button>
+        <button class="notification-button">
+          <img
+            class="notification-icon"
+            src="/icons/notifications.svg"
+            alt="notifications"
+          />
+        </button>
+
+        <button class="my-channel-image-button">
+          <img
+            class="my-channel-image"
+            src="/icons/my-channel.jpeg"
+            alt="my-channel"
+          />
+        </button>
+      </div>
+    </div>
     <div class="video-grid">
       <div class="video-preview">
         <img
