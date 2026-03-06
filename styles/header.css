@@ -3,6 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
   height: 55px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(222, 222, 222);
 }
 
 .header-left {
@@ -52,6 +61,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -70,6 +80,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
 
   margin-left: 10px;
   border: none;
@@ -104,6 +115,24 @@
 .upload-icon {
   width: 25px;
   height: 25px;
+}
+
+.notification-button {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .youtube-apps-icon {
